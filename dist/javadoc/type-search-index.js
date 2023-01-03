@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"sudoku1","l":"Game"},{"p":"sudoku1","l":"GameWindow"},{"p":"sudoku1","l":"IntegerField"},{"p":"sudoku1","l":"NewWindow"},{"p":"sudoku1","l":"Scase"}];updateSearchResults();
