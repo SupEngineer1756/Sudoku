@@ -39,33 +39,33 @@ public class GameWindow  extends JFrame implements MouseListener, KeyListener {
     Game game;
     Boolean caseclicked;
     int[] Caseclicked = new int[2];
-    File[] numbers = {new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\one.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\two.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\three.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\four.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\five.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\six.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\seven.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\eight.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\nine.bmp")};
-    File[] numbersright = {new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\oneright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\tworight.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\threeright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\fourright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\fiveright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\sixright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\sevenright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\eightright.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\nineright.bmp")};
-    File[] numberswrong = {new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\onewrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\twowrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\threewrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\fourwrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\fivewrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\sixwrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\sevenwrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\eightwrong.bmp"),
-        new File("Z:\\Mes documents\\java\\java\\Sudoku1\\Sudoku1\\ninewrong.bmp")};
+    File[] numbers = {new File("one.bmp"),
+        new File("two.bmp"),
+        new File("three.bmp"),
+        new File("four.bmp"),
+        new File("five.bmp"),
+        new File("six.bmp"),
+        new File("seven.bmp"),
+        new File("eight.bmp"),
+        new File("nine.bmp")};
+    File[] numbersright = {new File("oneright.bmp"),
+        new File("tworight.bmp"),
+        new File("threeright.bmp"),
+        new File("fourright.bmp"),
+        new File("fiveright.bmp"),
+        new File("sixright.bmp"),
+        new File("sevenright.bmp"),
+        new File("eightright.bmp"),
+        new File("nineright.bmp")};
+    File[] numberswrong = {new File("onewrong.bmp"),
+        new File("twowrong.bmp"),
+        new File("threewrong.bmp"),
+        new File("fourwrong.bmp"),
+        new File("fivewrong.bmp"),
+        new File("sixwrong.bmp"),
+        new File("sevenwrong.bmp"),
+        new File("eightwrong.bmp"),
+        new File("ninewrong.bmp")};
 
     public GameWindow() {
         game = new Game(60);
